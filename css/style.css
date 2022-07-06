@@ -1,10 +1,48 @@
-body{
-    font-family: 'Ubuntu', sans-serif;
+body {
     margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
 }
-a{
+
+.button{
     text-decoration: none;
+    border: 0px solid;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
 }
-h1{
-    font-size: 50px;
+
+.first p {
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.first-section {
+    background-image: url(../img/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sceond-section {}
+
+.first h1 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    display: block;
+    margin-top: 0px;
+    padding-top: 140px;
+}
+.sceond-section{
+
+}
+.sceond-section h1{
+    font-size: 40px;
+}
+.sceond-section p{
+    font-size: 20px;
 }
