@@ -1,12 +1,13 @@
 body {
     margin: 0px;
     font-family: 'Ubuntu', sans-serif;
+    
 }
 
 .button{
     text-decoration: none;
     border: 0px solid;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(rgb(255, 179, 0), tomato);
     border-radius: 6px;
     padding: 15px 20px;
     color: white;
@@ -70,6 +71,7 @@ body {
     color: rgb(228, 93, 93);
 }
 .sceond-section .input-box{
+    color:gray;
     font-size: 16px;
     outline: none;
     border: none;
@@ -105,6 +107,11 @@ body {
     background: transparent;
     background-color: #f1f5e9;
 }  
+#shelter{
+    background-color: #f9e9e9;
+}
+#education{
+    background-color: #feecff;
 }
 .food-family img{
     padding-top: 40px;
@@ -140,6 +147,7 @@ body {
 }
 .fifth-section p{
     font-size: 18px;
+    margin-bottom: 60px;
 }
 .form{
     background-image: linear-gradient(rgb(230, 230, 179) );
@@ -152,15 +160,62 @@ body {
     margin-bottom: 50px;
     width: 40%;
 }
+
 #input-form{
+    background-color: transparent;
     background-color: #dbdbdb80;
     padding: 11px;
-    padding-right: 50px;   
-}
+    padding-right: 50px;
+    margin-top: 90px;
+    margin-left: -124px;
+    border: none;
+    border-radius: 5px;
+}  
+/* *****************************
+            sixth section
+********************************/
+
 #subscribe{
-    background-color: #dbdbdb80;
+    background-color: #dbdbdb73;
     padding: 11px;
+    margin-left: -6px;
+    width: 20%;
+    text-align: center;
+    background-color: rgb(242, 60, 60);
+    border: none;
+    border-radius: 5px;
+    
 }
+
+.six-section{
+    background-color: rgb(251, 250, 215);
+    width: 70%;
+    height: 31vh;
+    margin-left: 198px;
+}
+
+
+/********************************
+        Footer css          
+*********************************/
+footer{
+    background-color: black;
+    height: 30vh;
+}
+footer h1{
+    color:tomato;
+    text-align: center;
+    padding-top: 55px;
+    margin-top: 120px;
+    
+}
+footer h4{
+    color:white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 
 
 
